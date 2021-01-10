@@ -1,0 +1,55 @@
+h1 {
+    color: whitesmoke;
+    font-weight: 500;
+    font-size: 50px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: white;
+    font-family: sans-serif;
+    transition: ease .2s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    rotate: 2deg;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    font-family: sans-serif;
+    transition: ease .4s;
+}
+
+h2:hover {
+    transform: scale(1.1);
+    rotate: -2deg;
+}
+
+body {
+    background-color: gray;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+img {
+    width: 300px;
+    border-radius: 10px;
+    transition: ease .4s;
+    border-color: teal;
+    border: 2px dotted greenyellow;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img:hover {
+    rotate: 5deg;
+    transform: scale(1.1);
+}
