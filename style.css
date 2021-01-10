@@ -19,7 +19,7 @@ h2 {
     text-align: center;
     color: black;
     font-family: sans-serif;
-    transition: ease .4s;
+    transition: ease .2s;
 }
 
 h2:hover {
@@ -40,7 +40,7 @@ p {
 img {
     width: 300px;
     border-radius: 10px;
-    transition: ease .4s;
+    transition: ease .2s;
     border-color: teal;
     border: 2px dotted greenyellow;
     display: block;
