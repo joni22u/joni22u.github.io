@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 h1 {
     color: whitesmoke;
     font-weight: 500;
@@ -8,6 +12,8 @@ h1 {
     text-decoration-color: white;
     font-family: sans-serif;
     transition: ease .2s;
+    perspective: 100px;
+    transform: rotateX(15deg) rotateY(-25deg);
 }
 
 h1:hover {
@@ -20,6 +26,7 @@ h2 {
     color: black;
     font-family: sans-serif;
     transition: ease .2s;
+    transform: rotateX(15deg) rotateY(-25deg);
 }
 
 h2:hover {
@@ -35,6 +42,8 @@ p {
     color: white;
     text-align: center;
     font-family: Arial;
+    transition: ease .2s;
+    transform: rotateX(15deg) rotateY(-25deg);
 }
 
 img {
@@ -47,9 +56,10 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+    transform: rotateX(15deg) rotateY(-25deg);
 }
 
 img:hover {
     rotate: 5deg;
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
