@@ -7,27 +7,27 @@ h1 {
     text-decoration-style: wavy;
     text-decoration-color: white;
     font-family: sans-serif;
-    transition: ease .2s;
+    transition: 1s;
     perspective: 100px;
     transform: rotateX(15deg) rotateY(-25deg);
+    text-shadow: 2px 2px rgb(73, 73, 73);
 }
 
 h1:hover {
     transform: scale(1.1);
-    rotate: 2deg;
 }
 
 h2 {
     text-align: center;
     color: black;
     font-family: sans-serif;
-    transition: ease .2s;
+    transition: 1s;
     transform: rotateX(15deg) rotateY(-25deg);
+    text-shadow: 2px 2px rgb(73, 73, 73);
 }
 
 h2:hover {
     transform: scale(1.1);
-    rotate: -2deg;
 }
 
 body {
@@ -38,8 +38,8 @@ p {
     color: white;
     text-align: center;
     font-family: sans-serif;
-    transition: ease .2s;
     transform: rotateX(15deg) rotateY(-25deg);
+    text-shadow: 2px 2px rgb(73, 73, 73)
 }
 
  div {
@@ -52,7 +52,13 @@ img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 98%;
+    width: 50%;
     border: cadetblue solid 4px;
     border-radius: 10px;
+    transition: 1s;
+    object-fit: cover;
+}
+
+img:hover {
+    transform: scale(1.1);
 }
