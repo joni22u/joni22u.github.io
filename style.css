@@ -56,10 +56,14 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    transform: rotateX(15deg) rotateY(-25deg);
 }
 
 img:hover {
     rotate: 5deg;
     transform: scale(1.05);
 }
+ div {
+     border: white solid 4px;
+     border-radius: 10px;
+     transform: rotateX(15deg) rotateY(-25deg);
+ }
